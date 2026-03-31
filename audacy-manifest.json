@@ -1,0 +1,35 @@
+{
+  "vendor": "Audacy",
+  "claim_generator": "Audacy_Vouch_v1",
+  "title": "Verified Advertising Content",
+  "assertions": [
+    {
+      "label": "stds.schema-org.CreativeWork",
+      "data": {
+        "@context": "https://schema.org",
+        "@type": "CreativeWork",
+        "author": [
+          {
+            "@type": "Organization",
+            "name": "Audacy",
+            "sameAs": "https://www.instagram.com/971theticket"
+          }
+        ],
+        "publisher": [
+          {
+            "@type": "Organization",
+            "name": "Matrix Basements"
+          }
+        ]
+      }
+    },
+    {
+      "label": "c2pa.training-mining",
+      "data": {
+        "entries": {
+          "c2pa.ai_training": "constrained"
+        }
+      }
+    }
+  ]
+}
